@@ -32,18 +32,6 @@
     -ms-transform: translate(-50%, -50%) scale(0.5);
     transform: translate(-50%, -50%) scale(0.5); }
   .line > .dot.one {
-    left: 0%;
-    background: #BEE1FF; }
-  .line > .dot.two {
-    left: 33%;
-    background: #BEE1FF; }
-  .line > .dot.three {
-    left: 67%;
-    background: #BEE1FF; }
-  .line > .dot.four {
-    left: 100%;
-    background: #BEE1FF; }
-  .line > .dot-move {
     position: absolute;
     top: 50%;
     left: 0%;
@@ -56,6 +44,15 @@
     border-radius: 50%;
     -webkit-transition: .3s all ease;
     transition: .3s all ease; }
+  .line > .dot.two {
+    left: 33%;
+    background: #BEE1FF; }
+  .line > .dot.three {
+    left: 67%;
+    background: #BEE1FF; }
+  .line > .dot.four {
+    left: 100%;
+    background: #BEE1FF; }
 
 h1 {
   font-family: Roboto-Light;
